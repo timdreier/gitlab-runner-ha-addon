@@ -8,6 +8,7 @@ arch:
   - armhf
   - armv7
   - i386
+init: false
 url: https://github.com/timdreier/gitlab-runner-ha-addon
 options:
   url: "https://gitlab.com/"
