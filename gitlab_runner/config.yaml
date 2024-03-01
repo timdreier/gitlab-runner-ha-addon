@@ -1,0 +1,22 @@
+name: "Gitlab Runner"
+description: "Gitlab Runner for Home Assistant"
+version: "1.0.0"
+slug: "gitlab_runner"
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+url: https://github.com/timdreier/gitlab-runner-ha-addon
+options:
+  url: "https://gitlab.com/"
+  token: null
+  docker_image: "alpine:latest"
+schema:
+  url: str
+  token: str
+  docker_image: str
+map:
+  - addon_config:rw
+docker_api: true
